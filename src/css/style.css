@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import "modules/vars.css";
+@import "modules/fonts.css";
+@import "modules/base.css";
+
+
+.nav-block {
+    display: flex;
+    transition: all .5s;
+    //background: blue;
+    &__wrap {
+    display: none;
+     }
+
+    &__list-item {
+      display: flex;
+      background: red;
+      justify-content: center;
+      align-items: center;
+    }
+}
