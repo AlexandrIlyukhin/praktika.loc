@@ -4,18 +4,14 @@
 @import "modules/base.css";
 
 
-.nav-block {
+.hand-picker {
+  text-align: center;
+  .top-sale {
     display: flex;
-    transition: all .5s;
-    //background: blue;
-    &__wrap {
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  .shopnow {
     display: none;
-     }
-
-    &__list-item {
-      display: flex;
-      background: red;
-      justify-content: center;
-      align-items: center;
-    }
+  }
 }

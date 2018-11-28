@@ -8,6 +8,14 @@
     --color-warning: #FFC107;
 }
 
+._overwrap {
+  width: 1280px;
+  margin: 0 auto;
+}
+img {
+  margin: 0;
+}
+
 
 
 
